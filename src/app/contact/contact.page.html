@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>contact</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <ion-input [(ngModel)]="contatos.nome">Produto:</ion-input>
+    <ion-input [(ngModel)]="contatos.E_mail">Valor:</ion-input>
+    <ion-input [(ngModel)]=contatos.telefone>Marca:</ion-input>
+    <ion-input [(ngModel)]=contatos.Messagem>Tipo:</ion-input>
+    <ion-button class="2" (click)="salvar()" ><ion-icon name="arrow-forward-circle-outline"></ion-icon></ion-button>
+  </div>
+</ion-content>
